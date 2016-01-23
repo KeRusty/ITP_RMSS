@@ -1,0 +1,9 @@
+c:\users\chath\documents\visual studio 2015\Projects\ITP_RMSS\ITP_RMSS\bin\Debug\ITP_RMSS.exe.config
+c:\users\chath\documents\visual studio 2015\Projects\ITP_RMSS\ITP_RMSS\bin\Debug\ITP_RMSS.exe
+c:\users\chath\documents\visual studio 2015\Projects\ITP_RMSS\ITP_RMSS\bin\Debug\ITP_RMSS.pdb
+c:\users\chath\documents\visual studio 2015\Projects\ITP_RMSS\ITP_RMSS\obj\Debug\ITP_RMSS.csprojResolveAssemblyReference.cache
+c:\users\chath\documents\visual studio 2015\Projects\ITP_RMSS\ITP_RMSS\obj\Debug\ITP_RMSS.Properties.Resources.resources
+c:\users\chath\documents\visual studio 2015\Projects\ITP_RMSS\ITP_RMSS\obj\Debug\ITP_RMSS.csproj.GenerateResource.Cache
+c:\users\chath\documents\visual studio 2015\Projects\ITP_RMSS\ITP_RMSS\obj\Debug\ITP_RMSS.exe
+c:\users\chath\documents\visual studio 2015\Projects\ITP_RMSS\ITP_RMSS\obj\Debug\ITP_RMSS.pdb
+c:\users\chath\documents\visual studio 2015\Projects\ITP_RMSS\ITP_RMSS\obj\Debug\ITP_RMSS.Login.resources
