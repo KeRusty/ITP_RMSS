@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ITP_RMSS.Util;
+using MySql.Data.MySqlClient;
 
 namespace ITP_RMSS
 {
@@ -40,6 +42,20 @@ namespace ITP_RMSS
                 txtUserID.Clear();
                 txtPass.Clear();
             }
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            Dashboard d = new Dashboard();
+            d.Show();
+            this.Hide();
+            
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
