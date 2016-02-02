@@ -26,5 +26,22 @@ namespace ITP_RMSS
         {
             Application.Exit();
         }
+
+        private void bckButton_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Do you really want to go back?", "Confirmation", MessageBoxButtons.YesNoCancel);
+            if (result == DialogResult.Yes)
+            {
+                Login l = new Login();
+                l.Show();
+                this.Close();
+            }
+            else
+            {
+                Dashboard d = new Dashboard();
+                d.Show();
+                this.Close();
+            }
+        }
     }
 }
