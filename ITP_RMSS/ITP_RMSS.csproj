@@ -64,6 +64,42 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\Connection.cs" />
     <Compile Include="Util\DBHandler.cs" />
+    <Compile Include="View\Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Delivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Delivery.Designer.cs">
+      <DependentUpon>Delivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Financial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Financial.Designer.cs">
+      <DependentUpon>Financial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Inventory.Designer.cs">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Orders.Designer.cs">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Staff.Designer.cs">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -80,6 +116,24 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Delivery.resx">
+      <DependentUpon>Delivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Financial.resx">
+      <DependentUpon>Financial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Inventory.resx">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Orders.resx">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Staff.resx">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -125,6 +179,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\shopping71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
