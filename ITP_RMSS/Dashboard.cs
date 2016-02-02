@@ -96,5 +96,85 @@ namespace ITP_RMSS
             o.Show();
             this.Close();
         }
+
+        private void pictureBox3_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox3.Image = ITP_RMSS.Properties.Resources.multiple25Hover;
+        }
+
+        private void pictureBox3_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox3.Image = null;
+        }
+
+        private void pictureBox6_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox6.Image = ITP_RMSS.Properties.Resources.cashierHover;
+        }
+
+        private void pictureBox6_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox6.Image = null;
+        }
+
+        private void pictureBox4_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox4.Image = ITP_RMSS.Properties.Resources.clerksHover;
+        }
+
+        private void pictureBox4_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox4.Image = null;
+        }
+
+        private void pictureBox5_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox5.Image = ITP_RMSS.Properties.Resources.deliveryHover;
+        }
+
+        private void pictureBox5_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox5.Image = null;
+        }
+
+        private void pictureBox7_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox7.Image = ITP_RMSS.Properties.Resources.list93Hover;
+        }
+
+        private void pictureBox7_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox7.Image = null;
+        }
+
+        private void pictureBox8_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox8.Image = ITP_RMSS.Properties.Resources.electionHover;
+        }
+
+        private void pictureBox8_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox8.Image = null;
+        }
+
+        private void pictureBox9_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox9.Image = ITP_RMSS.Properties.Resources.sell2Hover;
+        }
+
+        private void pictureBox9_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox9.Image = null;
+        }
+
+        private void pictureBox10_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox10.Image = ITP_RMSS.Properties.Resources.shopping71Hover;
+        }
+
+        private void pictureBox10_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox10.Image = null;
+        }
     }
 }

@@ -183,6 +183,30 @@
   <ItemGroup>
     <Folder Include="Controller\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cashierHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiple25Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clerksHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deliveryHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\electionHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list93Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping71Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sell2Hover.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
