@@ -50,5 +50,10 @@ namespace ITP_RMSS.View
                 this.Close();
             }
         }
+
+        private void Financial_Load(object sender, EventArgs e)
+        {
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+        }
     }
 }

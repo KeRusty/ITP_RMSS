@@ -20,7 +20,7 @@ namespace ITP_RMSS
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
-
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)

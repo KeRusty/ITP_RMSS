@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ITP_RMSS.Util;
 using MySql.Data.MySqlClient;
+using ITP_RMSS.View;
 
 namespace ITP_RMSS
 {
@@ -46,15 +46,51 @@ namespace ITP_RMSS
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            Dashboard d = new Dashboard();
-            d.Show();
-            this.Hide();
-            
+            if (string.IsNullOrEmpty(txtUserID.Text))
+            {
+                MessageBox.Show("UserID Field is empty, Please Check!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                txtUserID.Focus();
+                return;
+            }
 
+            try
+            {
+                AppDataTableAdapters.loginTableAdapter login = new AppDataTableAdapters.loginTableAdapter();
+                AppData.loginDataTable dt = login.login(txtUserID.Text, txtPass.Text);
+                if (dt.Rows.Count > 0)
+                {                    
+                    Dashboard d = new Dashboard();
+                    d.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Access Denied", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
+
+        }
+
+        private void txtUserID_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+                txtPass.Focus();
+                
+        }
+
+        private void txtPass_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+                btnLogin.PerformClick();
 
         }
     }
